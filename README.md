@@ -74,11 +74,16 @@ A Firefox extension that enhances the CSES (Code Submission Evaluation System) c
 ```
 cses-companion-firefox/
 ├── manifest.json          # Extension manifest
-├── cses-companion.js      # Main content script
 ├── package.json          # Node.js dependencies and scripts
+├── package-lock.json     # NPM lock file
+├── LICENSE               # MIT License file
+├── README.md            # This file
+├── .gitignore           # Git ignore rules
 ├── icons/
-│   └── border-48.png     # Extension icon
-└── README.md            # This file
+│   └── logo.svg         # Extension logo
+├── scripts/
+│   └── fast-submit.js   # Main content script for code submission
+└── node_modules/        # NPM dependencies (auto-generated)
 ```
 
 ## Development
