@@ -1,0 +1,28 @@
+{
+  "description": "CSES Companion - Adds code submission functionality to CSES problem pages",
+  "manifest_version": 2,
+  "name": "CSES Companion",
+  "version": "1.0",
+  "homepage_url": "https://github.com/ItsTHEAvro/cses-companion-firefox",
+  "icons": {
+    "32": "icons/logo.svg",
+    "48": "icons/logo.svg",
+    "64": "icons/logo.svg"
+  },
+  "applications": {
+    "gecko": {
+      "id": "cses-companion-firefox@itstheavro.github.io",
+      "strict_min_version": "45.0"
+    }
+  },
+  "permissions": [
+    "storage",
+    "*://*.cses.fi/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.cses.fi/*"],
+      "js": ["scripts/fast-submit.js"]
+    }
+  ]
+}

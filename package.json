@@ -1,0 +1,31 @@
+{
+  "name": "cses-companion-firefox",
+  "version": "1.0.0",
+  "description": "A Firefox extension that enhances the CSES competitive programming experience",
+  "main": "scripts/fast-submit.js",
+  "scripts": {
+    "build": "web-ext build",
+    "start": "web-ext run",
+    "lint": "web-ext lint"
+  },
+  "keywords": [
+    "firefox",
+    "extension",
+    "cses",
+    "competitive-programming",
+    "webextension"
+  ],
+  "author": "Jyotirmoy Avro",
+  "license": "MIT",
+  "devDependencies": {
+    "web-ext": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ItsTHEAvro/cses-companion-firefox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ItsTHEAvro/cses-companion-firefox/issues"
+  },
+  "homepage": "https://github.com/ItsTHEAvro/cses-companion-firefox#readme"
+}
